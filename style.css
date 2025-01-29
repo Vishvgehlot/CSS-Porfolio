@@ -1,0 +1,218 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-image: url(Assets/abstract-6005150.jpg);
+    background-size: cover;
+}
+
+.heading{
+    font-family: "Permanent Marker", serif;
+    font-weight: 500;
+    font-size: 7rem;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.introduction{
+    padding-top: 15px;
+    width: 100%;
+    height: 700px;
+    padding-bottom: 150px;
+}
+
+span{
+    font-weight: 900;
+}
+
+.text{
+    display: flex;
+    position: relative;
+    top: 85px;
+    left: 30px;
+    font-family: "Caveat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    height: 300px;
+    width: 800px;
+    font-size: 3rem;
+    word-spacing: 10px;
+}
+
+.img{
+    display: flex;
+    position: relative;
+    bottom: 300px;
+    left: 950px;
+    height: 500px;
+    width: 500px;
+}
+
+.myimg{  
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.resumegrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 600px;
+    text-align: left;
+    font-family: "Caveat", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 1.75rem;
+    gap: 10px;
+}
+
+h4{
+    text-align: center;
+}
+
+.resumehead{
+    font-family: "Caveat", serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    font-size: 4rem;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.education{
+    display: block;
+    justify-items: center;
+}
+
+.experience{
+    display: block;
+    justify-items: center;
+}
+
+.skills{
+    display: block;
+    justify-items: center;
+}
+
+.resumelist1{
+    padding-bottom: 10px;
+}
+
+.inventions{
+    padding-bottom: 150px;
+}
+
+.inventiontext{
+    font-family: "Caveat", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.inventionhead{
+    font-size: 4rem;
+}
+
+.moveithead{
+    text-align: right;
+    padding-right: 10px;
+}
+
+.tindog{
+    display: flex;
+    font-size: 3rem;
+}
+
+.moveit{
+    display: flex;
+    font-size: 3rem;
+    padding-right: 10px;
+    text-align: end;
+}
+
+.cv{
+    display: flex;
+    font-size: 3rem;
+}
+
+.inventionimg{
+    width: 700px;
+    position: relative;
+    bottom: 70px;
+}
+
+.cvimg{
+    width: 700px;
+    position: relative;
+    bottom: 35px;
+}
+
+.about{
+    font-family: "Caveat", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-bottom: 150px;
+}
+
+.abouthead{
+    font-family: "Permanent Marker", serif;
+    font-weight: 500;
+    font-size: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.abouttext{
+    font-size: 3rem;
+}
+
+.contacttext{
+    font-family: "Caveat", serif;
+    font-optical-sizing: auto; 
+    display: block;
+    justify-items: center;
+    padding-bottom: 100px;
+}
+
+.detailtext{
+    font-size: 4rem;
+    font-family: "Caveat", serif;
+    font-optical-sizing: auto;
+}
+
+.email{
+    display: block;
+    height: 50px;
+    width: 350px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.number{
+    display: block;
+    height: 50px;
+    width: 350px;
+    border-radius: 10px;
+}
+
+.footer{
+    border-top: 2px black solid;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+}
+
+.footerlink{
+    word-spacing: 5px;
+}
+
+.copyright{
+    padding-top: 25px;
+}
