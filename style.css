@@ -132,6 +132,7 @@ h4{
     font-size: 3rem;
     padding-right: 10px;
     text-align: end;
+    flex-flow: row-reverse;
 }
 
 .cv{
@@ -215,4 +216,87 @@ h4{
 
 .copyright{
     padding-top: 25px;
+}
+
+@media (max-width: 540px){
+ *{
+    padding: 0px;
+    margin: 0px;
+ }
+
+body{
+    width: 100vw;
+}
+
+ .introduction{
+    display: block;
+    height: 1200px;
+    justify-items: center;
+    margin-bottom: 50px;
+ }
+
+ .img{
+    position:unset;
+    display: block;
+    margin-top: 200px;
+ }
+
+.heading{
+    width: 534px;
+    font-size: 5rem;
+}
+ 
+ .text{
+    position: unset;
+    display: block;
+    width: 534px;
+    text-align: center;
+ }
+
+ .resume{
+    height: 1050px;
+ }
+
+.inventions{
+    height: 2100px;
+}
+
+ .inventionimg{
+    display: block;
+    position: unset;
+    width: 534px;
+ }
+
+.cvimg{
+    width: 534px;
+}
+
+ .moveit{
+    display:block;
+    text-align: unset;
+    margin-bottom: 50px;
+ }
+
+ .moveithead{
+    position: unset;
+    text-align: unset;
+ }
+
+ .tindog{
+    display: block;
+    margin-bottom: 50px;
+ }
+
+ .cv{
+    display: block;
+ }
+
+ .about{
+    text-align: center;
+    display: block;
+ }
+
+ .abouttext{
+    text-align: start;
+ }
 }
